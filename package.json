@@ -1,0 +1,38 @@
+{
+  "name": "playwright-js-automation",
+  "version": "1.0.0",
+  "description": "Portfolio for playwright js",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronnel58/playwright-js-automation.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ronnel58/playwright-js-automation/issues"
+  },
+  "homepage": "https://github.com/ronnel58/playwright-js-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5"
+  },
+
+"scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "test:debug": "playwright test --debug",
+        "test:chromium": "playwright test --project=chromium",
+        "test:firefox": "playwright test --project=firefox",
+        "test:webkit": "playwright test --project=webkit",
+        "test:smoke": "playwright test --grep @smoke",
+        "report": "playwright show-report"
+    }
+
+}
+
